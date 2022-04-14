@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <title>SignUp</title>
+    <link rel="stylesheet" href="signup.css">
+    <body>
+        <h1 style="color: black; text-align: center;">Sign Up</h1>
+       <center> <form action="/signup" method="post">          
+            <div class="container" >
+    <table style="width: 60%;">
+              <tr>
+               <td>
+                  <label for="uname" style="color: white;"><b>Username: </b></label>
+               </td>
+               <td>
+                 <input type="text" id="usrname" name="usrname" placeholder="Enter Username" required><br>
+               </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pwd" style="color: white;"><b>Password: </b></label>
+                </td>
+                <td>
+                  <input type="password" id="paswd" name="paswd" placeholder="Enter Password" required><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  <label for="confirmpwd" style="color: white;"><b>Repeat-Password: </b></label>
+                </td>
+                <td> 
+                  <input type="password" placeholder="Retype Password" name="confirmpwd" required><br>
+                </td>
+            <tr>
+                <td>
+                  <label for="ContactNo" style="color: white;"><b>Contact:</b></label>
+                </td>
+                <td>
+                  <input type="contactno" id="contctno" name="contctno" placeholder="Enter ContactNo" required><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  <label for="Email" style="color: white;"><b>Email:</b></label>
+                </td>
+                <td> 
+                   <input type="email" id="eml" name="eml" placeholder="Enter Email Address" required><br>
+                </td>  
+    </table>
+              <button type="submit" class="signup">Signup</button>
+              <a href="signin.html"><button type="button" class="Login">Login</button></a>               
+            
+            </div>
+          </form>
+        </center>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("16524.webp");
+}
+
+
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.Login {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 6px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+}
+.Signup{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 6px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.container {
+  padding-top: 100px;
+  margin-top: 150px;
+}
